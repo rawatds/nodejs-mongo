@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>TODO app</title>
+  <link href="/style.css" rel="stylesheet" />
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="/todo-ajax.js"></script>
+
+</head>
+
+<body>
+<div id="todo-table">
+    <form method="post">
+        <input type="text" name="item" placeholder="Add an item..." required />
+        <button type="submit">Add</button>
+
+    </form> 
+</div>
+
+<h1>Welcome to TODO app using NodeJS and MongoDB</h1>
+<ul>
+    <% for(var i=0; i<todos.length; i++) {  %>
+        <li> <%= todos[i].item  %>      </li>
+    <% }    %>
+</ul>
+
+
+</body>
+</html>

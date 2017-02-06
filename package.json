@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-mongo",
+  "version": "1.0.0",
+  "description": "NodeJS with MongoDB on cloud demo by DSR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DSRawat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1"
+  }
+}
