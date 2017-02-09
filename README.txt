@@ -4,7 +4,7 @@ Checkout/Clone the code.
 
 Install the following packages:
 
-$ npm install express ejs body-parser mongoose
+$ npm install express ejs body-parser mongoose nodemon
 
 Then from command prompt run:
 $ node index
