@@ -1,6 +1,11 @@
 A sample TODO app using NodeJS and MongoDB.
 
 Checkout/Clone the code.
+
+Install the following packages:
+
+$ npm install express ejs body-parser mongoose
+
 Then from command prompt run:
 $ node index
 
